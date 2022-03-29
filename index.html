@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Seta's clime app</h1>
+
+    <div class="container">
+        <div class="inputCiudad">
+            <form action="" class="searchCity" id="searchCity">
+                Dónde vivís?
+                <label for="">Buscá entre más de 200.000 ciudades!
+                    <input type="text" class="searchInput" id="searchInput" placeholder="tu ciudad">
+                    <button id="btn" type="submit">Buscar!</button>
+                </label>
+            </form>
+        </div>
+
+        <div class="temperatura">
+            <div>
+                <div class="currentTemp" id="currentTemp"></div>
+                <span>°C</span>
+            </div>
+        </div>
+
+        <img src="" alt="climateIcon" class="icon" id="icon">
+        <div class="iconDesc" id="iconDesc"></div>
+
+        <div class="lugar" id="lugar">
+            <div class="ciudad" id="ciudad"></div>
+        </div>
+
+        <div class="minMax" id="minMax">
+            <div>Mínima: <span class="min" id="min"></span> <span> °C</span></div>
+            <div>Máxima: <span class="max" id="max"></span> <span> °C</span></div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Made by &copy Augusto Seta</p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

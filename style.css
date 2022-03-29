@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,500;0,700;1,300;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+    font-family: 'Red Hat Mono', monospace;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-style: italic;
+}
+
+.container {
+    box-shadow: 4px 5px 17px 2px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, .5);
+    text-align: center;
+    position: relative;
+    padding: 2%;
+    margin: 150px 370px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+}
+
+.container form input {
+
+    margin-top: 25px;
+    width: 350px;
+    padding: 1.5%;
+    font-size: 16px;
+}
+
+.container form button {
+    background-color: antiquewhite;
+    padding: 1.5%;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 4px 1px 11px -2px;
+}
+
+.container form button:hover {
+    background-color: rgb(224, 207, 185);
+}
+
+.temperatura {
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+.temperatura div {
+    display: flex;
+    justify-content: center;
+}
+
+.minMax {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* ------------------------------- */
+
+footer {
+    text-align: center;
+    background-color: rgb(177, 107, 243);
+}
