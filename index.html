@@ -20,13 +20,13 @@
                 Dónde vivís?
                 <label for="">Buscá entre más de 200.000 ciudades!
                     <input type="text" class="searchInput" id="searchInput" placeholder="tu ciudad">
-                    <button id="btn" type="submit">Buscar!</button>
+                    <button id="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </label>
             </form>
         </div>
 
         <div class="temperatura">
-            <div>
+            <div class="tempContainer">
                 <div class="currentTemp" id="currentTemp"></div>
                 <span>°C</span>
             </div>
@@ -34,6 +34,8 @@
 
         <img src="" alt="climateIcon" class="icon" id="icon">
         <div class="iconDesc" id="iconDesc"></div>
+
+        <hr>
 
         <div class="lugar" id="lugar">
             <div class="ciudad" id="ciudad"></div>
@@ -50,6 +52,7 @@
         <p>Made by &copy Augusto Seta</p>
     </footer>
 
+    <script src="https://kit.fontawesome.com/603ceff627.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </body>
 
